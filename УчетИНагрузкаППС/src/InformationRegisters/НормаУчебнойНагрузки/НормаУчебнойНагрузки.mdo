@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d94bd6c-274e-4aaf-9186-68d94f8974fe">
+  <producedTypes>
+    <selectionType typeId="ce42ef4d-8a7f-4cbb-866e-727272a70bea" valueTypeId="765ebc3d-0280-46c5-a9c1-45662374b3ad"/>
+    <listType typeId="cd1d07bf-9e5e-432f-ab7d-eacf53fc5cf7" valueTypeId="07c55eb2-1f95-452b-84ac-7de55fbd9522"/>
+    <managerType typeId="6566a55f-e69d-4afd-bfe1-ac2d955b3bc8" valueTypeId="6413ebc1-b4e0-44b5-bb68-7393d24ac19d"/>
+    <recordSetType typeId="23cdce5a-43af-4820-8b2a-554474f80337" valueTypeId="3a0a590e-ad7a-4965-ba7d-7fd962382c39"/>
+    <recordKeyType typeId="ed529c8b-6c98-4a41-a8eb-e3b48bb32937" valueTypeId="0b96c11d-64af-4035-b6c7-f001cebbebf7"/>
+    <recordType typeId="30cb0008-73ee-4215-96ea-c9d084ae59a4" valueTypeId="ff74c17a-d1e4-4739-9053-8b9118fe3d98"/>
+    <recordManagerType typeId="71e9105a-168d-4005-873b-3e4f722e1a64" valueTypeId="4aa0cd22-9745-48b2-8946-d939fa814d20"/>
+  </producedTypes>
+  <name>НормаУчебнойНагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норма учебной нагрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4bf3352d-f0d1-45f2-817e-f0637fd522f2">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="5a582038-1058-41eb-bfe0-74ad5e367bfc">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+</mdclass:InformationRegister>

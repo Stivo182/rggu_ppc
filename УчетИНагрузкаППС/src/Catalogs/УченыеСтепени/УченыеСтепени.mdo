@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34f35842-80a1-4eb1-bb6c-b313416ba8cf">
+  <producedTypes>
+    <objectType typeId="49e7b193-8e90-4605-9db6-0a07b3b4c7e6" valueTypeId="174daa0b-75d5-45ea-8f12-1dac854b203e"/>
+    <refType typeId="f4c56609-473f-4cac-8547-a6a7de4f6599" valueTypeId="888fea48-f427-4b34-aa46-e8bba44fc5d1"/>
+    <selectionType typeId="07e8dcaf-b37c-4b86-bafa-1c43254e933f" valueTypeId="21b249a5-d347-4037-967e-bac0a16d269b"/>
+    <listType typeId="b663d943-28b8-468a-aaa3-6679d386f67a" valueTypeId="5b870fe1-d0ec-47b9-8832-8147edb0f7cd"/>
+    <managerType typeId="050d7166-3648-4484-8e65-201abc54be70" valueTypeId="bb99c7c2-1253-4f06-9625-d026a0dc5fdd"/>
+  </producedTypes>
+  <name>УченыеСтепени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученые степени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УченыеСтепени.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УченыеСтепени.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ученая степень</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ученые степени</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0f39c1f5-b0f7-40ab-aee0-004526456c35">
+      <name>ДокторНаук</name>
+      <description>Доктор наук</description>
+      <code xsi:type="core:StringValue">
+        <value>000001</value>
+      </code>
+    </items>
+    <items id="78b6c10a-d672-4d12-ae4f-71578f34ce12">
+      <name>КандидатНаук</name>
+      <description>Кандидат наук</description>
+      <code xsi:type="core:StringValue">
+        <value>000002</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0215ec5c-88e8-4567-a815-2037ff93f660">
+    <name>Сокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

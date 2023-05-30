@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7760875-e9f5-4ad0-a994-69a35715713f">
+  <producedTypes>
+    <objectType typeId="47e39dd4-3345-491a-b221-86cd5a1b941f" valueTypeId="87282345-e00b-4ef4-b943-e6275aa282fd"/>
+    <refType typeId="5d59bc61-9979-40af-ac93-4f619517c791" valueTypeId="98608af7-9ef9-4b7c-9e3d-69a146cd47bc"/>
+    <selectionType typeId="b3dec3fe-30ea-4c18-8a13-51fe7b237839" valueTypeId="deebec31-935f-4a5e-9808-d626c28d7cf5"/>
+    <listType typeId="8e1ddcf4-9dc7-4944-a598-2c5467608095" valueTypeId="dc7c6af3-3114-4424-a6a3-d9f1aeaafa10"/>
+    <managerType typeId="3e1ae508-ff6c-4304-b34c-bb1360744a0c" valueTypeId="9572292a-369b-42b7-ab88-5d556b67df5a"/>
+  </producedTypes>
+  <name>НормаУчебнойНагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норма учебной нагрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НормаУчебнойНагрузки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <format>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДЛФ=D</value>
+    </editFormat>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Норма учебной нагрузки</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Нормы учебной нагрузки</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.НормаУчебнойНагрузки.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.НормаУчебнойНагрузки.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.НормаУчебнойНагрузки</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="474d48f6-1a5f-4fb2-af1a-5fbe4509930d">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7d34763-5653-471d-a7e0-339168b5029c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9dd04801-1faa-440f-8188-04d8cd83b34c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="642c4d20-df56-4595-ae6e-3d93ab07a6d7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a7d46924-dbc0-4983-bbbf-9a5cb88cd9cf">
+    <producedTypes>
+      <objectType typeId="9b7d977b-e521-4261-b30f-bea00320a629" valueTypeId="2158f99c-4ad2-43f9-b768-a2590865ab68"/>
+      <rowType typeId="9630c938-c955-42b2-96c8-7d93e8bd3f3f" valueTypeId="8be9f77e-df9d-4899-ad44-c3cae73632bc"/>
+    </producedTypes>
+    <name>Должности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должности</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="49a4ecb6-f8f5-485c-a74c-878975a4ccfd">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Должности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="320f8a97-5702-46d4-a325-ef1aacf7dc36">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
