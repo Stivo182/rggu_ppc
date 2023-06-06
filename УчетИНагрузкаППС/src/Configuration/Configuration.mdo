@@ -1603,10 +1603,14 @@
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.УченыеСтепени</catalogs>
   <catalogs>Catalog.УченыеЗвания</catalogs>
+  <catalogs>Catalog.УчебныеГоды</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
   <documents>Document.НормаУчебнойНагрузки</documents>
+  <documents>Document.ПроектШтатногоРасписания</documents>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1672,6 +1676,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ВидыЗанятости</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
@@ -1883,6 +1888,9 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.НормаУчебнойНагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.КадроваяИсторияСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.УченыеСтепениФизическихЛиц</informationRegisters>
+  <informationRegisters>InformationRegister.УченыеЗванияФизическихЛиц</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>

@@ -140,7 +140,8 @@
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>5</precision>
+          <precision>10</precision>
+          <scale>2</scale>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>

@@ -10,5 +10,8 @@
   <content>Catalog.Должности</content>
   <content>Catalog.УченыеСтепени</content>
   <content>Catalog.УченыеЗвания</content>
+  <content>Catalog.УчебныеГоды</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ФизическиеЛица</content>
   <parentSubsystem>Subsystem.ППС</parentSubsystem>
 </mdclass:Subsystem>
