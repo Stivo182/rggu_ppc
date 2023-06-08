@@ -108,4 +108,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="0d70433b-e0e3-40f6-98e0-3e2145449bd1">
+    <name>ФормаВыбораСотрудника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора сотрудника</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
