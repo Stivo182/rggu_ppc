@@ -67,6 +67,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="57d6f26a-dfa6-468a-9f22-1e8b454828ac">
+    <name>Первичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="744f39ea-2681-4ecf-b85a-16376064ec51">
     <name>Ответственный</name>
     <synonym>
@@ -212,10 +227,10 @@
       <objectType typeId="d946de20-5857-47cc-a1b3-88c6a34ce8f4" valueTypeId="710f86d3-b1b2-407d-962c-ee4adabd18ad"/>
       <rowType typeId="d3f9eb77-55a4-4924-9749-c928c373b633" valueTypeId="170f6f7b-d245-4634-b55a-f79433a2ecdd"/>
     </producedTypes>
-    <name>Преподаватели</name>
+    <name>Нагрузка</name>
     <synonym>
       <key>ru</key>
-      <value>Преподаватели</value>
+      <value>Нагрузка</value>
     </synonym>
     <attributes uuid="767ce18c-5f9a-40a9-b9d4-ef8e1662dcad">
       <name>Преподаватель</name>
@@ -259,6 +274,34 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="cd415a21-c217-47cc-8af0-81b994ff9aaa">
+      <name>УченаяСтепень</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ученая степень</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УченыеСтепени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ba9de81-0f16-4fb9-a707-e438f29dc13f">
+      <name>УченоеЗвание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ученое звание</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УченыеЗвания</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="865c829d-e519-46cc-a9e4-1d9faa3eefb1">
       <name>КоличествоСтавок</name>
       <synonym>
@@ -279,111 +322,6 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="dae01412-41c9-4840-9b81-62ab8b5e0980">
-      <name>КоличествоЧасов</name>
-      <synonym>
-        <key>ru</key>
-        <value>Количество часов</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>10</precision>
-          <scale>2</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
-  <tabularSections uuid="201dc76a-d002-4cae-a3f0-277d639d7e47">
-    <producedTypes>
-      <objectType typeId="3ce0da75-fc65-4ab5-99f1-379d5fc6ee1b" valueTypeId="b0d0e284-6781-4bb9-acef-da8175610e18"/>
-      <rowType typeId="d60025b8-2df9-48fd-be9d-45473bd3759c" valueTypeId="75376348-919c-4c92-a148-f42647fe77be"/>
-    </producedTypes>
-    <name>Вакансии</name>
-    <synonym>
-      <key>ru</key>
-      <value>Вакансии</value>
-    </synonym>
-    <attributes uuid="0cb1f502-5eff-4b18-8af4-fb1add4b7a7e">
-      <name>Должность</name>
-      <synonym>
-        <key>ru</key>
-        <value>Должность</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Должности</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="e9b8a762-5a1c-4d24-93c5-34a0e9f36f44">
-      <name>ВидЗанятости</name>
-      <synonym>
-        <key>ru</key>
-        <value>Вид занятости</value>
-      </synonym>
-      <type>
-        <types>EnumRef.ВидыЗанятости</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="7486be97-3cb3-44c4-b500-8bc880d76909">
-      <name>УченаяСтепень</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ученая степень</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.УченыеСтепени</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="44f8713b-6016-432b-857e-154c89b1948d">
-      <name>УченоеЗвание</name>
-      <synonym>
-        <key>ru</key>
-        <value>Ученое звание</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.УченыеЗвания</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="01bf00d1-4782-43a4-bf29-b00b6b0c2e90">
-      <name>КоличествоСтавок</name>
-      <synonym>
-        <key>ru</key>
-        <value>Количество ставок</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>3</precision>
-          <scale>2</scale>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="6d506225-5fcd-4589-8cd0-25e1d29ca234">
       <name>КоличествоЧасов</name>
       <synonym>
         <key>ru</key>
