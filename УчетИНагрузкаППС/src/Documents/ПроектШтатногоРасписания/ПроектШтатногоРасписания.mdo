@@ -33,6 +33,8 @@
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПроектШтатногоРасписания.Form.ФормаДокумента</defaultObjectForm>
   <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ШтатноеРасписание</registerRecords>
+  <registerRecords>InformationRegister.ШтатныеРасписанияПодразделений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="2b83bb07-70e4-4546-9345-5ebb01bf41f6">
@@ -257,6 +259,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -271,6 +274,7 @@
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

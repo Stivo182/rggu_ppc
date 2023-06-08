@@ -1064,6 +1064,7 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйЛокализация</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыППС</commonModules>
+  <commonModules>CommonModule.ПроведениеСервер</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_3</xDTOPackages>
@@ -1893,6 +1894,8 @@
   <informationRegisters>InformationRegister.КадроваяИсторияСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.УченыеСтепениФизическихЛиц</informationRegisters>
   <informationRegisters>InformationRegister.УченыеЗванияФизическихЛиц</informationRegisters>
+  <informationRegisters>InformationRegister.ШтатноеРасписание</informationRegisters>
+  <informationRegisters>InformationRegister.ШтатныеРасписанияПодразделений</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
