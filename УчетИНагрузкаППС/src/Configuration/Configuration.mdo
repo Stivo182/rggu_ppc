@@ -1065,6 +1065,8 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыППС</commonModules>
   <commonModules>CommonModule.ПроведениеСервер</commonModules>
+  <commonModules>CommonModule.ШтатноеРасписание</commonModules>
+  <commonModules>CommonModule.Кадры</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_3</xDTOPackages>

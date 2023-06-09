@@ -65,6 +65,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.Date</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ДатаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ДатаРасширеннаяПодсказка</name>
         <id>6</id>
@@ -155,6 +159,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.УчебныйГод</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>УчебныйГодПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>УчебныйГодРасширеннаяПодсказка</name>
           <id>9</id>
@@ -205,6 +213,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Подразделение</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПодразделениеПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ПодразделениеРасширеннаяПодсказка</name>
           <id>12</id>
@@ -296,6 +308,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Первичный</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПервичныйПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ПервичныйРасширеннаяПодсказка</name>
           <id>158</id>
@@ -1028,6 +1044,7 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
+        <readOnly>true</readOnly>
         <editMode>Enter</editMode>
         <showInHeader>true</showInHeader>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1133,6 +1150,106 @@
           </extendedTooltip>
           <extInfo xsi:type="form:ButtonGroupExtInfo">
             <representation>Compact</representation>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ТаблицаНагрузкиГруппаЗаполнить</name>
+          <id>168</id>
+          <items xsi:type="form:Button">
+            <name>ТаблицаНагрузкиЗаполнитьШтатнымРасписанием</name>
+            <id>172</id>
+            <title>
+              <key>ru</key>
+              <value>Штатное расписание</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ТаблицаНагрузкиЗаполнитьШтатнымРасписаниемРасширеннаяПодсказка</name>
+              <id>173</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ЗаполнитьШтатнымРасписанием</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ТаблицаНагрузкиЗаполнитьСотрудниками</name>
+            <id>170</id>
+            <title>
+              <key>ru</key>
+              <value>Сотрудники подразделения</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ТаблицаНагрузкиЗаполнитьСотрудникамиРасширеннаяПодсказка</name>
+              <id>171</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ЗаполнитьСотрудниками</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Заполнить</value>
+          </title>
+          <extendedTooltip>
+            <name>ТаблицаНагрузкиГруппаЗаполнитьРасширеннаяПодсказка</name>
+            <id>169</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Popup</type>
+          <extInfo xsi:type="form:PopupGroupExtInfo">
+            <representation>Auto</representation>
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
@@ -2191,6 +2308,40 @@
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ЗаполнитьСотрудниками</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить сотрудниками</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьСотрудниками</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЗаполнитьШтатнымРасписанием</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить штатным расписанием</value>
+    </title>
+    <id>5</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаполнитьШтатнымРасписанием</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
@@ -2199,6 +2350,10 @@
     <handlers>
       <event>BeforeWrite</event>
       <name>ПередЗаписью</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
