@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d093687-1851-47ce-a897-66d6a14a5c83">
+  <name>Нагрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нагрузка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.НормаУчебнойНагрузки</content>
+  <content>Document.ПроектШтатногоРасписания</content>
+  <parentSubsystem>Subsystem.ППС</parentSubsystem>
+</mdclass:Subsystem>

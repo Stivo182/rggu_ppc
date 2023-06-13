@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dbd2c3a-e2c9-4894-bfda-dcde50fa4374">
+  <producedTypes>
+    <objectType typeId="8288b2c1-414d-437a-bb41-27d693cd74d2" valueTypeId="4e5bf1a6-d16c-4d22-b522-a4a4b80e55bf"/>
+    <refType typeId="4ebd1c2c-2a51-4b4a-a672-5dfef0b72557" valueTypeId="62cacb22-d83d-48df-bdc9-143ff9f7bb4c"/>
+    <selectionType typeId="b2eca1a9-7798-4481-ba05-f5d91cc712f8" valueTypeId="f3c44560-a4e5-41bc-b62c-746a770b40fe"/>
+    <listType typeId="0a86e554-254c-4a64-a4cf-0660bc031fb3" valueTypeId="ed69c41d-fcf9-44c3-b4b6-4867ba1a052f"/>
+    <managerType typeId="5388b589-250a-4418-bbad-8603ca66be78" valueTypeId="2fb00ac9-54db-499c-b70f-365730ba5354"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Подразделение</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

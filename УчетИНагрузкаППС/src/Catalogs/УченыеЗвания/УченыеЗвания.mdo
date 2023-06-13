@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7eae270d-b2f1-4a80-9500-03e61827f7a5">
+  <producedTypes>
+    <objectType typeId="145888c2-3e56-49c9-ae31-726f1d218a5a" valueTypeId="a2e00b22-7670-46ae-9177-bf18d147bc07"/>
+    <refType typeId="cad849d2-5a9e-43d5-8991-1a20ea748857" valueTypeId="4014c86f-63e0-415c-be8d-a6d050832672"/>
+    <selectionType typeId="31f5bdfd-849d-4ba4-a955-0d78f0b2095b" valueTypeId="51d3bbc1-e81a-4795-be6b-a0ec5b1138ef"/>
+    <listType typeId="b484e91d-15b5-442d-baf3-a7f3181e9f8a" valueTypeId="c9b28cca-f013-48de-9da8-a08eaa6f6a31"/>
+    <managerType typeId="ab8c5d3f-5155-47ac-990f-daf9e5630267" valueTypeId="2bd002fc-3ae3-48cd-b931-90cc1c0a1fa4"/>
+  </producedTypes>
+  <name>УченыеЗвания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученые звания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УченыеЗвания.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УченыеЗвания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ученое звания</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ученые звания</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="7a337153-a425-439c-941b-886cdc7da67d">
+    <name>Сокращение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

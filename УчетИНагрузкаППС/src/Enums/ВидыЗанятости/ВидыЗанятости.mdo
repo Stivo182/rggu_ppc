@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09d4fe3d-4dc6-4408-83f6-dc5a746b4896">
+  <producedTypes>
+    <refType typeId="f3ad4190-2c14-44db-a796-c0554639d419" valueTypeId="11c4c5b6-e89e-4007-9cda-0d6db7852bb2"/>
+    <listType typeId="6fda96e2-4390-4f37-998f-27ce8f778bb0" valueTypeId="a1f84030-9dcb-4d83-97d2-e9ee74b0ebb1"/>
+    <managerType typeId="5df15a28-71b3-4d55-8793-0e96e8ef9798" valueTypeId="9f27ffe9-ae9a-499c-bd4e-943ec405ad3d"/>
+  </producedTypes>
+  <name>ВидыЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды занятости</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e9604525-9b12-4c65-92fa-9dccb3e6e55d">
+    <name>Основное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e840260a-5b21-4f75-acb0-028a64415077">
+    <name>ВнутреннееСовместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее совместительство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="438b19c9-3eec-46b6-83a2-cc2adc55a7db">
+    <name>ВнешнееСовместительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешнее совместительство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71084bec-a795-47ec-8663-ef47d1b9be63">
+    <name>Почасовое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почасовое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

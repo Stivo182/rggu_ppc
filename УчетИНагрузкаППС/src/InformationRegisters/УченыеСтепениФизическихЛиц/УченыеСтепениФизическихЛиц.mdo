@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25e638f5-05ab-4c8b-845c-3e25d490aa6c">
+  <producedTypes>
+    <selectionType typeId="a6c73c0e-d9c1-4c61-bab2-85374d724d42" valueTypeId="61e34ded-2089-4f5d-bfba-4dac84e8b48b"/>
+    <listType typeId="2423bd2c-3905-49b5-8758-749fd8633b97" valueTypeId="a11cd4f1-ec12-43bb-970c-0c08740cbbc3"/>
+    <managerType typeId="122e3fe9-87dd-4855-a151-da8ff86076e3" valueTypeId="6bc9526a-3cce-4146-9a09-bd87501c5307"/>
+    <recordSetType typeId="1607dc9d-3cfe-48a4-995e-cfe57b5c729f" valueTypeId="ee651cb4-486a-42b2-9752-caad9849020b"/>
+    <recordKeyType typeId="f1e42259-517f-4daa-9c8a-931b49f887d0" valueTypeId="14718497-451b-472a-83b4-55d97a4e90bd"/>
+    <recordType typeId="88cd2ffd-5575-476c-88fe-452768395811" valueTypeId="3110a002-8da2-4d21-8cea-8eeeeb35b0e5"/>
+    <recordManagerType typeId="8308a0a6-e5cb-4e8d-b3d0-b7a467fe2969" valueTypeId="1bbb8978-7019-4cd1-a106-3b92f411e3a5"/>
+  </producedTypes>
+  <name>УченыеСтепениФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученые степени физических лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Ученая степень физического лица</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ученые степени физических лиц</value>
+  </listPresentation>
+  <resources uuid="355aa979-c144-40ff-905f-dea28dc6dd1a">
+    <name>УченаяСтепень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученая степень</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УченыеСтепени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="52bf2039-f8f6-4d16-8d70-dba025f90eab">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d04dbf12-5afa-4d51-bccf-e5e2646be3e4">
+    <name>НомерПоПорядку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер по порядку</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

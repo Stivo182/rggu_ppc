@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "settings": {
+    "md-standard-attribute-synonym-empty": {
+      "enabled": false
+    }
+  }
+}

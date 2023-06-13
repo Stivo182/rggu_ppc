@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ae24744-a65b-4bbb-acdf-162c667e3aeb">
+  <producedTypes>
+    <objectType typeId="89ea39af-f40d-4cf0-ac2b-3f25d7a970db" valueTypeId="5e642c45-4339-4bc1-85fa-5b4af75ec5c4"/>
+    <refType typeId="28b3cec4-6280-4ac7-922f-f3a09842816a" valueTypeId="decadf9e-275c-4b9d-b003-ed07781bb59a"/>
+    <selectionType typeId="97c26415-a6e5-41ce-b691-79e5914ad88f" valueTypeId="2a1cb6f8-88bd-4579-a662-b5bdf3181076"/>
+    <listType typeId="3450a940-7a26-47a7-8585-8127bc01ab5d" valueTypeId="52bd80f7-fc63-449f-b109-ec0e56320d8d"/>
+    <managerType typeId="f0d63c2d-f13a-43fe-8296-9cb9a5e71880" valueTypeId="806c7dbe-d3d6-4d6b-a85f-936f674aef5b"/>
+  </producedTypes>
+  <name>УчебныеГоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебные годы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.УчебныеГоды.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.УчебныеГоды.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Учебный год</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Учебные годы</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.УчебныеГоды.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.УчебныеГоды.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="0c448f38-7b60-4bcd-8cca-74120841ecd3">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2f75f70c-0d10-4045-8093-fdb376ab9eed">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="745a131a-6494-48f5-a546-dca13f3a7a85">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f9ef3ea4-1a08-4aea-8a4c-24216400984b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

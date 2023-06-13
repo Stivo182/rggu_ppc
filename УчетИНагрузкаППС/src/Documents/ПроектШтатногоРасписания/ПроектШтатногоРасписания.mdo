@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d425cc9-9b10-4ec3-a4ef-c565009c15eb">
+  <producedTypes>
+    <objectType typeId="dc83f563-59cf-4282-913f-dbc46f87d162" valueTypeId="310dbb74-8025-4ba1-a973-a0432ca4601a"/>
+    <refType typeId="3b04f934-653d-41d1-ad44-b3a820561c63" valueTypeId="d4942d7b-02ce-4e25-8805-7e3652f1da18"/>
+    <selectionType typeId="be9d727a-26f6-4801-9603-2a782b88de84" valueTypeId="f1235410-b699-48af-adc3-94b1f679bc70"/>
+    <listType typeId="f1731a7b-e5ae-40fb-92e7-d87a23e68b56" valueTypeId="009b60f7-5f28-477a-8b4b-9fa67f78dea2"/>
+    <managerType typeId="b0fcef6a-1744-400f-907e-d2581be6288d" valueTypeId="edf0a7f6-7f0d-46f7-a2d8-ec104b727c62"/>
+  </producedTypes>
+  <name>ПроектШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проект штатного расписания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПроектШтатногоРасписания.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Проект штатного расписания</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Проекты штатного расписания</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ПроектШтатногоРасписания.Form.ФормаДокумента</defaultObjectForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>InformationRegister.ШтатноеРасписание</registerRecords>
+  <registerRecords>InformationRegister.ШтатныеРасписанияПодразделений</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="2b83bb07-70e4-4546-9345-5ebb01bf41f6">
+    <name>УчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГоды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="34e42b37-3a1a-40d4-bd37-49683b39f29e">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="57d6f26a-dfa6-468a-9f22-1e8b454828ac">
+    <name>Первичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="744f39ea-2681-4ecf-b85a-16376064ec51">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="df49811f-6120-47dd-a77c-7ff8a6483d34">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="04ac05c0-4f2b-4f03-ae18-f51f078428dd">
+    <name>КоличествоЧасовГИА</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГИА (бакалавриат, специалитет, магистратура)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ba73f2e-8457-4c3e-8e5a-96d6932608e7">
+    <name>КоличествоЧасовГИААспирантура</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГИА (аспирантура)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e319303-84a3-4f6d-a0a2-c26ff7ef854b">
+    <name>КоличествоЧасовДОТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДОТ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="51bea358-f195-4f78-add1-c1cf7dbd24d4">
+    <name>КоличествоЧасовГИАДОТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГИА (ДОТ)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c8430a3-54bf-4c54-9669-9a2a7b94230c">
+    <name>КоличествоЧасовИтого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов итого</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="094e76ee-15c6-49e7-912a-dcc5a225b120">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="b0b11c5b-b579-4038-af6d-d634f0b4a0ef">
+    <producedTypes>
+      <objectType typeId="d946de20-5857-47cc-a1b3-88c6a34ce8f4" valueTypeId="710f86d3-b1b2-407d-962c-ee4adabd18ad"/>
+      <rowType typeId="d3f9eb77-55a4-4924-9749-c928c373b633" valueTypeId="170f6f7b-d245-4634-b55a-f79433a2ecdd"/>
+    </producedTypes>
+    <name>Нагрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нагрузка</value>
+    </synonym>
+    <attributes uuid="767ce18c-5f9a-40a9-b9d4-ef8e1662dcad">
+      <name>Преподаватель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Преподаватель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a1748e5b-f7e7-4c35-88fe-6c9d801d4483">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Должности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d01b24ca-e0f1-426f-8e9b-7b2a379126f5">
+      <name>ВидЗанятости</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид занятости</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ВидыЗанятости</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cd415a21-c217-47cc-8af0-81b994ff9aaa">
+      <name>УченаяСтепень</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ученая степень</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УченыеСтепени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ba9de81-0f16-4fb9-a707-e438f29dc13f">
+      <name>УченоеЗвание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ученое звание</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УченыеЗвания</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="865c829d-e519-46cc-a9e4-1d9faa3eefb1">
+      <name>КоличествоСтавок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество ставок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dae01412-41c9-4840-9b81-62ab8b5e0980">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

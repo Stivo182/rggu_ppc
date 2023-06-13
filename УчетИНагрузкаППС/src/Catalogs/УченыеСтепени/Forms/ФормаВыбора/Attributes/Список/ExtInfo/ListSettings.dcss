@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
+	<filter>
+		<item xsi:type="FilterItemComparison">
+			<left xsi:type="dcscor:Field">Ссылка</left>
+			<comparisonType>NotInList</comparisonType>
+			<right xsi:type="dcscor:DesignTimeValue">Справочник.УченыеСтепени.ДокторНаук</right>
+			<right xsi:type="dcscor:DesignTimeValue">Справочник.УченыеСтепени.КандидатНаук</right>
+		</item>
+		<viewMode>Normal</viewMode>
+	</filter>
+	<order>
+		<viewMode>Normal</viewMode>
+		<userSettingID>86833cfb-73cb-4065-85d6-bdfa62f1fb64</userSettingID>
+	</order>
+	<conditionalAppearance>
+		<viewMode>Normal</viewMode>
+		<userSettingID>699fa51f-4986-4b45-a660-31bff7e089d3</userSettingID>
+	</conditionalAppearance>
+	<itemsViewMode>Normal</itemsViewMode>
+	<itemsUserSettingID>8f3591dd-1295-494d-bc56-255d576ac6b3</itemsUserSettingID>
+</Settings>
