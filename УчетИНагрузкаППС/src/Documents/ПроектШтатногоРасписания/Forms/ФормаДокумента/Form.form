@@ -864,7 +864,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ТаблицаНагрузкиГруппаПослеИзменения</name>
+        <name>ТаблицаНагрузкиГруппаДоИзменения</name>
         <id>135</id>
         <items xsi:type="form:FormField">
           <name>ТаблицаНагрузкиКоличествоЧасовДоИзменения</name>
@@ -986,7 +986,7 @@
           <value>До изменения</value>
         </title>
         <extendedTooltip>
-          <name>ТаблицаНагрузкиГруппаПослеИзмененияРасширеннаяПодсказка</name>
+          <name>ТаблицаНагрузкиГруппаДоИзмененияРасширеннаяПодсказка</name>
           <id>136</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2014,6 +2014,7 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <excludedCommands>Reread</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
