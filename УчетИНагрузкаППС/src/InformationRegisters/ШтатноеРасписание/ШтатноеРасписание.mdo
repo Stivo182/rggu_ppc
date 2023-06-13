@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a9b9c91-7729-40b4-9d41-0118fb8ec849">
+  <producedTypes>
+    <selectionType typeId="be7e94fd-294c-4b31-8b15-4a47ee249b8e" valueTypeId="7da57689-b61b-43c5-87f4-2abdea77982a"/>
+    <listType typeId="4e9e719c-4ee3-4c16-9fbf-5368c50b7799" valueTypeId="abbb859d-5617-4589-9443-fa31f16fb896"/>
+    <managerType typeId="08a4ab67-f03c-4766-ad46-143f52ed9985" valueTypeId="5fa35208-d836-4605-8a8c-60e4d749488f"/>
+    <recordSetType typeId="02658ab3-2e4e-4277-8acf-284bb4155dc4" valueTypeId="04a04ba3-db8e-48f6-8962-ceaf21cf62a9"/>
+    <recordKeyType typeId="9026ef6c-1e72-4fdc-81d8-7500e0fbbe32" valueTypeId="b309228d-d75b-422d-ab9e-234ed707dcea"/>
+    <recordType typeId="281176b4-07d9-4618-807a-52ac4f7ab71e" valueTypeId="89f86bbc-cbb2-4e06-b367-f224e027538b"/>
+    <recordManagerType typeId="f1b391dd-2650-4f12-adbd-62216547df9c" valueTypeId="c23f85f9-7fa8-46c3-97dd-c1ee5427ef7d"/>
+  </producedTypes>
+  <name>ШтатноеРасписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатное расписание</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="456b7441-6f99-4ffe-b32e-6a91e1e315a9">
+    <name>КоличествоСтавок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ставок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="8676975d-526d-4732-a60d-86b0ede77200">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="749bd20c-4353-468e-b945-bf1ffacc1173">
+    <name>УчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГоды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="4b39c096-8c95-4ea8-845c-92dbfe07bd46">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="c139173f-af0b-4d0a-b765-70e30555cd4b">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3594e14a-2197-4820-b8b5-1660466ef992">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <dimensions uuid="7b57a008-ab3f-4848-a705-b94b085f8899">
+    <name>ВидЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид занятости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЗанятости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <dimensions uuid="3b830716-08c6-4885-b96f-24482358750e">
+    <name>УченаяСтепень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученая степень</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УченыеСтепени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <dimensions uuid="525f1e24-3219-4928-acd3-620af0570945">
+    <name>УченоеЗвание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученое звание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УченыеЗвания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+</mdclass:InformationRegister>

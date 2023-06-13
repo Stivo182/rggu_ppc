@@ -56,6 +56,7 @@
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.УченыеСтепени.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="0215ec5c-88e8-4567-a815-2037ff93f660">
     <name>Сокращение</name>
     <synonym>
@@ -74,4 +75,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="85e01104-8672-43e7-ac5b-469c1403b024">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96824b7a-303a-46d2-9c31-adef02da8496">
+  <producedTypes>
+    <selectionType typeId="f03d78da-d576-478f-b20f-af63ed2a536a" valueTypeId="d4c8a48d-2f2b-4d54-b6dd-9c42e9b41c49"/>
+    <listType typeId="7edb7ca1-a73c-4eb4-9f7f-0f9fcf5d3e98" valueTypeId="36ef71b4-7564-4a58-9bcf-f1dd04f852c1"/>
+    <managerType typeId="23903e1e-01f1-475c-bcef-5b2f4de146fc" valueTypeId="27f97535-b2d4-4e0a-892f-8b6694c0cb0b"/>
+    <recordSetType typeId="c965bf59-b353-40d8-8167-dc88acc86960" valueTypeId="e7122d37-9775-4e11-b77f-9a65eed69b3a"/>
+    <recordKeyType typeId="c0b70e04-fb0b-4f7d-ad2e-1fb752c242e4" valueTypeId="57dc3986-1546-4090-b80b-cb6d00146cbe"/>
+    <recordType typeId="ff0f93e9-b9a8-43a3-a3b9-becefb6ce77a" valueTypeId="343e76df-9cb3-40c0-8c2f-59f6c5eb19f1"/>
+    <recordManagerType typeId="4dfce7fc-8a09-4f99-9e75-5d6097b1b60e" valueTypeId="a43a60b0-a698-4849-a0af-7cd6b6ada3da"/>
+  </producedTypes>
+  <name>ШтатныеРасписанияПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Штатные расписания подразделений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="69abfc00-7ba7-4c1c-bdc9-e0d401407d64">
+    <name>ШтатноеРасписание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штатное расписание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроектШтатногоРасписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d32d24dd-b2f0-4b58-9499-0dab0acbd6e7">
+    <name>УчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГоды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="7a2e73c2-7cd8-4539-8b9f-f80b0294c0e0">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

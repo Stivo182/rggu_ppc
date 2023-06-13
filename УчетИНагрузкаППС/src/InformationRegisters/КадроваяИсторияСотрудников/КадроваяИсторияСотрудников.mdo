@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22440c5e-b4be-4e8c-8cf7-f7213d499546">
+  <producedTypes>
+    <selectionType typeId="c45baee9-18fc-434a-9383-d9af46859d8b" valueTypeId="087980a4-15a5-4934-8fe3-8e4e03d29acc"/>
+    <listType typeId="b892f8e7-a8f8-4ba2-bc49-1967b0a1b9e0" valueTypeId="dee19b6c-6ce3-4e00-a119-63cffeab7b02"/>
+    <managerType typeId="22eb2614-47d3-4989-a2b4-a60c5e009a40" valueTypeId="e4c17315-967f-4800-8bad-b52ab2cee3f9"/>
+    <recordSetType typeId="2f6c9447-0369-4db8-afa4-677d52d91cae" valueTypeId="83166166-9b6b-4858-bd76-d12452d818de"/>
+    <recordKeyType typeId="09364c63-4ab3-4233-9728-a50b2857f64b" valueTypeId="59ba899b-bcc2-488e-89a4-5fb01b628f48"/>
+    <recordType typeId="0ab05cf9-248d-4c8d-a600-61c2b10d7d02" valueTypeId="dd38c579-4f8c-47e8-8a0c-d23e77119a96"/>
+    <recordManagerType typeId="e8bcfa4d-7511-4049-a30d-237875b6c2f5" valueTypeId="fb920873-39b4-46b5-9b69-a4a7f8d9d1f0"/>
+  </producedTypes>
+  <name>КадроваяИсторияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кадровая история сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Кадровая история сотрудника</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Кадровая история сотрудников</value>
+  </listPresentation>
+  <resources uuid="4cbd2a9e-56e5-4837-a8e8-a1223a0ff4bc">
+    <name>КоличествоСтавок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ставок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="32ad9d4b-320c-4ada-b641-9754740854df">
+    <name>ОперацииЗавершены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции завершены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cb0c4d48-cd35-4352-829a-923dcfe9bf8b">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="64352825-3f63-45cd-82e2-333d97827efa">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="6e398da8-182d-420c-aa74-ee9382338334">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="01afafda-4edd-4de3-a3bb-4587f58daace">
+    <name>ВидЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид занятости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЗанятости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

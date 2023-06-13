@@ -8,6 +8,12 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>InformationRegister.НормаУчебнойНагрузки</content>
-  <content>Document.НормаУчебнойНагрузки</content>
+  <content>Enum.ВидыЗанятости</content>
+  <content>InformationRegister.КадроваяИсторияСотрудников</content>
+  <content>InformationRegister.УченыеЗванияФизическихЛиц</content>
+  <content>InformationRegister.УченыеСтепениФизическихЛиц</content>
+  <content>InformationRegister.ШтатноеРасписание</content>
+  <content>InformationRegister.ШтатныеРасписанияПодразделений</content>
+  <subsystems>Нагрузка</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

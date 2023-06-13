@@ -560,6 +560,8 @@
   <commonPictures>CommonPicture.ЭтапыПодтверждения</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
+  <commonPictures>CommonPicture.Напоминание</commonPictures>
+  <commonPictures>CommonPicture.ПереводТекста</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ДлительныеОперации</sessionParameters>
   <sessionParameters>SessionParameter.ОграничениеДоступаНаУровнеЗаписейУниверсально</sessionParameters>
@@ -1062,6 +1064,9 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйЛокализация</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыППС</commonModules>
+  <commonModules>CommonModule.ПроведениеСервер</commonModules>
+  <commonModules>CommonModule.ШтатноеРасписание</commonModules>
+  <commonModules>CommonModule.Кадры</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_3</xDTOPackages>
@@ -1603,10 +1608,14 @@
   <catalogs>Catalog.Должности</catalogs>
   <catalogs>Catalog.УченыеСтепени</catalogs>
   <catalogs>Catalog.УченыеЗвания</catalogs>
+  <catalogs>Catalog.УчебныеГоды</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
   <documents>Document.НормаУчебнойНагрузки</documents>
+  <documents>Document.ПроектШтатногоРасписания</documents>
   <documentJournals>DocumentJournal.СогласияНаОбработкуПерсональныхДанных</documentJournals>
   <enums>Enum.ВариантыВажностиЗадачи</enums>
   <enums>Enum.ВариантыОчисткиФайлов</enums>
@@ -1672,6 +1681,7 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ВидыЗанятости</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
@@ -1883,6 +1893,11 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.НормаУчебнойНагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.КадроваяИсторияСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.УченыеСтепениФизическихЛиц</informationRegisters>
+  <informationRegisters>InformationRegister.УченыеЗванияФизическихЛиц</informationRegisters>
+  <informationRegisters>InformationRegister.ШтатноеРасписание</informationRegisters>
+  <informationRegisters>InformationRegister.ШтатныеРасписанияПодразделений</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
