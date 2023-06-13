@@ -131,6 +131,29 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
+    <attributes uuid="c08ba56f-3ffb-48cc-91cb-7582a7fd0641">
+      <name>УченаяСтепень</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ученая степень</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.УченыеСтепени</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Родитель</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Catalog.УченыеСтепени.EmptyRef</value>
+        </value>
+      </choiceParameters>
+      <quickChoice>Use</quickChoice>
+      <createOnInput>DontUse</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="320f8a97-5702-46d4-a325-ef1aacf7dc36">
       <name>КоличествоЧасов</name>
       <synonym>
