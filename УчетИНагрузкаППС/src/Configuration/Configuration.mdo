@@ -113,6 +113,7 @@
   <styleItems>StyleItem.ЦветФонаОтрицательногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветФонаПоложительногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
+  <styleItems>StyleItem.ЦветФонаНедоступноеПоле</styleItems>
   <commonPictures>CommonPicture.GoogleMaps</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
@@ -1066,6 +1067,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыППС</commonModules>
   <commonModules>CommonModule.ПроведениеСервер</commonModules>
   <commonModules>CommonModule.ШтатноеРасписание</commonModules>
+  <commonModules>CommonModule.ШтатноеРасписаниеКлиентСервер</commonModules>
   <commonModules>CommonModule.Кадры</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
