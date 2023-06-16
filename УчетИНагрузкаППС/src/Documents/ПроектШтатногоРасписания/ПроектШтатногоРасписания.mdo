@@ -32,6 +32,7 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultObjectForm>Document.ПроектШтатногоРасписания.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ПроектШтатногоРасписания.Form.ФормаСписка</defaultListForm>
   <realTimePosting>Deny</realTimePosting>
   <registerRecords>InformationRegister.ШтатноеРасписание</registerRecords>
   <registerRecords>InformationRegister.ШтатныеРасписанияПодразделений</registerRecords>
@@ -78,6 +79,14 @@
     <type>
       <types>Boolean</types>
     </type>
+    <format>
+      <key>ru</key>
+      <value>БЛ='Изменение в штатное расписание'; БИ='Утверждение штатного расписания'</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>БЛ='Изменение в штатное расписание'; БИ='Утверждение штатного расписания'</value>
+    </editFormat>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -220,6 +229,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="13677cf4-7904-4717-8a66-7fae9fab0c5d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
