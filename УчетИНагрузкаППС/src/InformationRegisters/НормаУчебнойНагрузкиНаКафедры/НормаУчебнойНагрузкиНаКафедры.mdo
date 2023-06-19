@@ -27,7 +27,8 @@
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>5</precision>
+        <precision>10</precision>
+        <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </type>
@@ -36,6 +37,7 @@
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="ce759c2b-fd97-4084-9256-85eb6402b756">
     <name>УчебныйГод</name>
