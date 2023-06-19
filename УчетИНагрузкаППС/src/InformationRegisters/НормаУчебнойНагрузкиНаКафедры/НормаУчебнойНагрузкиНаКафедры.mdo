@@ -18,14 +18,6 @@
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <recordPresentation>
-    <key>ru</key>
-    <value>Норма учебной нагрузки на кафедры</value>
-  </recordPresentation>
-  <listPresentation>
-    <key>ru</key>
-    <value>Норма учебной нагрузки на кафедры</value>
-  </listPresentation>
   <resources uuid="2051fed6-b960-47dd-a0b3-bfe3d57d3e77">
     <name>КоличествоЧасов</name>
     <synonym>
