@@ -118,7 +118,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </dimensions>
@@ -133,7 +132,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </dimensions>
@@ -165,14 +163,14 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </dimensions>
-  <dimensions uuid="9e888bef-004f-40f0-b139-9d31db0ad506">
-    <name>ТолькоЧасыДОТ</name>
+  <dimensions uuid="2510353c-fb4b-4dbe-bb11-e2d9186fb9f8">
+    <name>ВидЗаписи</name>
     <synonym>
       <key>ru</key>
-      <value>Только часы ДОТ</value>
+      <value>Вид записи</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>CatalogRef.ВидыЗаписейШтатногоРасписания</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

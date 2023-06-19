@@ -1613,6 +1613,7 @@
   <catalogs>Catalog.УчебныеГоды</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ВидыЗаписейШтатногоРасписания</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
@@ -1895,6 +1896,7 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.НормаУчебнойНагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.НормаУчебнойНагрузкиНаКафедры</informationRegisters>
   <informationRegisters>InformationRegister.КадроваяИсторияСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.УченыеСтепениФизическихЛиц</informationRegisters>
   <informationRegisters>InformationRegister.УченыеЗванияФизическихЛиц</informationRegisters>

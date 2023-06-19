@@ -14,6 +14,7 @@
   <content>InformationRegister.УченыеСтепениФизическихЛиц</content>
   <content>InformationRegister.ШтатноеРасписание</content>
   <content>InformationRegister.ШтатныеРасписанияПодразделений</content>
+  <content>InformationRegister.НормаУчебнойНагрузкиНаКафедры</content>
   <subsystems>Нагрузка</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

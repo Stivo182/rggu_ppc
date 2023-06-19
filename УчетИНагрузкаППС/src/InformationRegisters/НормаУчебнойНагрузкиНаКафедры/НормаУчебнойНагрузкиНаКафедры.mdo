@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0a1fbb5-5270-4601-9876-0c8f68cff94d">
+  <producedTypes>
+    <selectionType typeId="e871ffef-76c3-4296-acef-e4fe5e80dc1b" valueTypeId="fd9582cb-9298-4d34-b5ce-e7c08aac522f"/>
+    <listType typeId="0491e11b-1d12-4075-b976-470b8b13fedf" valueTypeId="aa41648c-84ed-4d95-aa85-ad5ef9fa91bd"/>
+    <managerType typeId="4acbd268-29bf-4d70-be81-467da2a0b42b" valueTypeId="470fbb16-e991-434b-8d7d-aeaef458067f"/>
+    <recordSetType typeId="f73c7b18-a655-45ee-97ea-a914c99ca800" valueTypeId="b97f84c9-4d19-496a-844d-fcd101877953"/>
+    <recordKeyType typeId="c219e977-f6d4-4ec8-aacf-a53a8627af18" valueTypeId="03b1ccb4-9d15-47e6-bd3f-8af81e2cc518"/>
+    <recordType typeId="ae8c9c08-0602-44c8-8ce4-ec1a9b8ff623" valueTypeId="3b693110-ff1f-40ec-ab02-d47cfbefa872"/>
+    <recordManagerType typeId="953678e7-2b7f-4576-958c-505dcf66532e" valueTypeId="8573ac3c-30a1-400f-a548-4c6160951a05"/>
+  </producedTypes>
+  <name>НормаУчебнойНагрузкиНаКафедры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норма учебной нагрузки на кафедры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2051fed6-b960-47dd-a0b3-bfe3d57d3e77">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="ce759c2b-fd97-4084-9256-85eb6402b756">
+    <name>УчебныйГод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учебный год</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеГоды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="f98ca98c-2cd2-429b-8583-2e11e3f2fac9">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -13,5 +13,6 @@
   <content>Catalog.УчебныеГоды</content>
   <content>Catalog.Подразделения</content>
   <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ВидыЗаписейШтатногоРасписания</content>
   <parentSubsystem>Subsystem.ППС</parentSubsystem>
 </mdclass:Subsystem>
