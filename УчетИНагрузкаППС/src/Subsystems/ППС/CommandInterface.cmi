@@ -17,5 +17,17 @@
       <command>InformationRegister.УченыеСтепениФизическихЛиц.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ШтатныеРасписанияПодразделений.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ШтатноеРасписание.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.НормаУчебнойНагрузкиНаКафедры.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
 </cmi:CommandInterface>
