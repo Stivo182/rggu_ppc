@@ -58,7 +58,7 @@
     <name>Подразделение</name>
     <synonym>
       <key>ru</key>
-      <value>Подразделение</value>
+      <value>Кафедра</value>
     </synonym>
     <type>
       <types>CatalogRef.Подразделения</types>
@@ -97,13 +97,14 @@
     <name>Ответственный</name>
     <synonym>
       <key>ru</key>
-      <value>Ответственный</value>
+      <value>Исполнитель</value>
     </synonym>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
@@ -137,6 +138,40 @@
         <scale>2</scale>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f9021827-da09-4a31-98e8-c32fc95759ec">
+    <name>РуководительКафедры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель кафедры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="971543f0-dbaa-4082-aa78-48536160e6b2">
+    <name>ДолжностьРуководителяКафедры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность руководителя кафедры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Должности</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -297,4 +332,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="7d9ca5de-a3c1-4e78-8f45-14f72a5489ca">
+    <name>ПФ_MXL_ПроектШтатногоРасписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект штатного расписания</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
