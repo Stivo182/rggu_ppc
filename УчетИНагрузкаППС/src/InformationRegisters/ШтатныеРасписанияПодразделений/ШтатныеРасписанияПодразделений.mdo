@@ -35,6 +35,21 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="a2180d43-130a-4ef7-871f-ebe4ed6bb7a5">
+    <name>Первичный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="d32d24dd-b2f0-4b58-9499-0dab0acbd6e7">
     <name>УчебныйГод</name>
     <synonym>
