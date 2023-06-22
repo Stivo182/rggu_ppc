@@ -1069,6 +1069,8 @@
   <commonModules>CommonModule.ШтатноеРасписание</commonModules>
   <commonModules>CommonModule.ШтатноеРасписаниеКлиентСервер</commonModules>
   <commonModules>CommonModule.Кадры</commonModules>
+  <commonModules>CommonModule.КадроваяСтруктура</commonModules>
+  <commonModules>CommonModule.КадроваяСтруктураКлиентСервер</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_3</xDTOPackages>
@@ -1613,6 +1615,7 @@
   <catalogs>Catalog.УчебныеГоды</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ВидыЗаписейШтатногоРасписания</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
@@ -1684,6 +1687,7 @@
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ВидыЗанятости</enums>
+  <enums>Enum.РолиОтветственныхЛиц</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
@@ -1895,11 +1899,13 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.НормаУчебнойНагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.НормаУчебнойНагрузкиНаКафедры</informationRegisters>
   <informationRegisters>InformationRegister.КадроваяИсторияСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.УченыеСтепениФизическихЛиц</informationRegisters>
   <informationRegisters>InformationRegister.УченыеЗванияФизическихЛиц</informationRegisters>
   <informationRegisters>InformationRegister.ШтатноеРасписание</informationRegisters>
   <informationRegisters>InformationRegister.ШтатныеРасписанияПодразделений</informationRegisters>
+  <informationRegisters>InformationRegister.ОтветственныеЛицаОрганизации</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b4e152d-c019-45da-b0d9-bb031f4fa3b8">
+  <producedTypes>
+    <objectType typeId="9f32a801-64aa-451a-b59b-092aa734d7dc" valueTypeId="7a5fc8a6-5680-40b4-bb6a-cb223993a498"/>
+    <refType typeId="3ba00dd6-a697-4192-9205-f907fffff49b" valueTypeId="7e36ed93-d53f-4207-a704-f31d2c5e9ef3"/>
+    <selectionType typeId="17b5f8f6-5640-435c-b544-f51786679600" valueTypeId="bed033d4-d7d7-4de0-ae98-06ac120d8151"/>
+    <listType typeId="29dc791e-e0a1-4ff2-b398-6c95609797e2" valueTypeId="b058eaec-0e9f-4e9e-80e4-e028fe6a8d0b"/>
+    <managerType typeId="1a5116b4-f0db-430e-bc91-057b87d631e0" valueTypeId="2174d545-48b0-48f4-a4af-33e44b95c57f"/>
+  </producedTypes>
+  <name>ВидыЗаписейШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды записей штатного расписания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЗаписейШтатногоРасписания.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыЗаписейШтатногоРасписания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d1e7cb08-e7f8-4a4b-967a-6a2239ab6f40">
+      <name>Распределяемые</name>
+      <description>Распределяемые</description>
+      <code xsi:type="core:StringValue">
+        <value>00009</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="35cc231f-072e-414a-8bf4-47bea71bda9e">
+        <name>ШтатныеПреподаватели</name>
+        <description>Штатные преподаватели</description>
+        <code xsi:type="core:StringValue">
+          <value>00001</value>
+        </code>
+      </content>
+      <content id="1d7eebe4-7396-4e2b-9d77-c5077acdd561">
+        <name>СовместителиВнешние</name>
+        <description>Совместители внешние</description>
+        <code xsi:type="core:StringValue">
+          <value>00010</value>
+        </code>
+      </content>
+      <content id="1f230984-b509-4240-87a0-1ad8ef6d8ba1">
+        <name>СовместителиВнутренние</name>
+        <description>Совместители внутренние</description>
+        <code xsi:type="core:StringValue">
+          <value>00011</value>
+        </code>
+      </content>
+      <content id="f05c33f1-60b9-4035-8382-a3fdb46d417f">
+        <name>ПочасоваяОплатаБезДОТ</name>
+        <description>Почасовая оплата (без учета часов ДОТ)</description>
+        <code xsi:type="core:StringValue">
+          <value>00012</value>
+        </code>
+      </content>
+      <content id="414fe755-6cdf-40e1-8f13-2b384b1ed9c9">
+        <name>ПочасоваяОплатаДОТ</name>
+        <description>Почасова оплата (ДОТ)</description>
+        <code xsi:type="core:StringValue">
+          <value>00013</value>
+        </code>
+      </content>
+    </items>
+    <items id="8619797f-f187-44d1-9813-c69a074fedb1">
+      <name>Нераспределяемые</name>
+      <description>Нераспределяемые</description>
+      <code xsi:type="core:StringValue">
+        <value>00003</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="b53e19a4-9e76-46a9-a6db-3afa271d25cf">
+        <name>ГИА</name>
+        <description>ГИА (бакалавриат, специалитет, магистратура)</description>
+        <code xsi:type="core:StringValue">
+          <value>00004</value>
+        </code>
+      </content>
+      <content id="bfcd126b-422a-490d-94b3-b6475a63a346">
+        <name>ГИААспирантура</name>
+        <description>ГИА (аспирантура)</description>
+        <code xsi:type="core:StringValue">
+          <value>00005</value>
+        </code>
+      </content>
+      <content id="5fead1bc-1ff2-4980-84fc-098c3b3dfe33">
+        <name>ДОТ</name>
+        <description>ДОТ</description>
+        <code xsi:type="core:StringValue">
+          <value>00006</value>
+        </code>
+      </content>
+      <content id="ebc2bbf4-63e3-4d60-bc50-844ead0afac6">
+        <name>ГИАДОТ</name>
+        <description>ГИА (ДОТ)</description>
+        <code xsi:type="core:StringValue">
+          <value>00007</value>
+        </code>
+      </content>
+      <content id="ccd94d15-158d-408d-b935-6216219218c6">
+        <name>ПочасоваяНагрузкаБезДОТ</name>
+        <description>Почасовая нагрузка (без учета ДОТ)</description>
+        <code xsi:type="core:StringValue">
+          <value>00008</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="66c7a219-f235-4ccf-8057-88531f3d6040">
+    <name>ВидЗанятости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид занятости</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЗанятости</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14470fd6-bd72-4636-a64d-2a68ba615428">
+    <name>УчетСтавок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет ставок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dfaa50ec-36a0-466e-a758-1f3fc6b7f82a">
+    <name>УчетДолжностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет должностей</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4718c724-7d8e-4f6e-aaf6-b29857aabd03">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
