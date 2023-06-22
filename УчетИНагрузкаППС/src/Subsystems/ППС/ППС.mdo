@@ -15,6 +15,9 @@
   <content>InformationRegister.ШтатноеРасписание</content>
   <content>InformationRegister.ШтатныеРасписанияПодразделений</content>
   <content>InformationRegister.НормаУчебнойНагрузкиНаКафедры</content>
+  <content>CommonModule.КадроваяСтруктура</content>
+  <content>Enum.РолиОтветственныхЛиц</content>
+  <content>InformationRegister.ОтветственныеЛицаОрганизации</content>
   <subsystems>Нагрузка</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

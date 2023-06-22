@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7983f059-b4f5-4c18-b2f6-32812146655f">
+  <producedTypes>
+    <refType typeId="701125fb-698e-4bf1-9da5-720c0f8e1341" valueTypeId="e3c539af-d5b3-4341-aa8c-20038afb73ff"/>
+    <listType typeId="5f1f5d07-eb04-45f8-a8ba-064c12f90e1c" valueTypeId="46be6431-3732-4f06-a89b-95320c5d0fd3"/>
+    <managerType typeId="c0c3a4dd-4f7b-4fe1-9610-d143cf19aea5" valueTypeId="04147078-2b06-4dfe-bf64-6aea7b83e2c1"/>
+  </producedTypes>
+  <name>РолиОтветственныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли ответственных лиц</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b5964dfd-0662-4c76-9df3-39b29487ee4a">
+    <name>РуководительОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa4a7a57-af65-45a4-b775-80cb7c00b30f">
+    <name>ПроректорПоУчебнойРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проректор по учебной работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2bdd2e3e-bbea-4f01-ade6-cc040c90b53e">
+    <name>ГлавныйБухгалтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный бухгалтер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52a50eba-11a4-4d88-af69-cad748bb0e68">
+    <name>НачальникКадров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник кадров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3b3b52c-aced-4454-aa25-23231fac68b6">
+    <name>НачальникУМУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник УМУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62eac314-7d57-446b-912a-2045e3e7a58e">
+    <name>РуководительПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель подразделения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
