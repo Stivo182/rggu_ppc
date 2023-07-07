@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a04a50d-5ed1-417f-87ae-18275c843d73">
+  <producedTypes>
+    <refType typeId="08eeaf52-44b9-4ec5-baed-38ff7530948a" valueTypeId="b5c83382-9013-4429-8464-515157650f29"/>
+    <listType typeId="7c1f1419-f9a5-48a2-b036-275ccfd30e15" valueTypeId="3a00aeef-e6d0-44a8-a76b-8f7b5bd2f62c"/>
+    <managerType typeId="f0cb8463-c474-441d-8458-a9af4d1c1588" valueTypeId="72ff6539-080a-4579-8c87-a7d9c5887a50"/>
+  </producedTypes>
+  <name>СостоянияЗаписейШтатногоРасписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния записей штатного расписания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c7e6ca40-bd52-47fb-9946-95348a86678e">
+    <name>ВДекретномОтпуске</name>
+    <synonym>
+      <key>ru</key>
+      <value>В декретном отпуске</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c18ac488-af9f-47b2-87f7-715a0686661f">
+    <name>ЗамещениеСтавки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замещение ставки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -114,6 +114,7 @@
   <styleItems>StyleItem.ЦветФонаПоложительногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <styleItems>StyleItem.ЦветФонаНедоступноеПоле</styleItems>
+  <styleItems>StyleItem.ЗачеркнутаяНадписьШрифт</styleItems>
   <commonPictures>CommonPicture.GoogleMaps</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
@@ -1688,6 +1689,7 @@
   <enums>Enum.ЦветностиИзображения</enums>
   <enums>Enum.ВидыЗанятости</enums>
   <enums>Enum.РолиОтветственныхЛиц</enums>
+  <enums>Enum.СостоянияЗаписейШтатногоРасписания</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ИспользуемыеВнешниеРесурсы</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
