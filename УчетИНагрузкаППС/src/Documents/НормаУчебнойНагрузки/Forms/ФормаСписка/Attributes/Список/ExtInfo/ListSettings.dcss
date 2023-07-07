@@ -9,6 +9,32 @@
 		<userSettingID>a406d309-c3b1-4230-a91f-c53b2f6dbb74</userSettingID>
 	</order>
 	<conditionalAppearance>
+		<item>
+			<selection>
+				<item>
+					<field>ПодразделенияТекст</field>
+				</item>
+			</selection>
+			<filter>
+				<item xsi:type="FilterItemComparison">
+					<left xsi:type="dcscor:Field">ПодразделенияТекст</left>
+					<comparisonType>NotFilled</comparisonType>
+					<right xsi:type="xs:string"/>
+				</item>
+			</filter>
+			<appearance>
+				<dcscor:item xsi:type="SettingsParameterValue">
+					<dcscor:parameter>Текст</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>По всем</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+			<viewMode>Inaccessible</viewMode>
+		</item>
 		<viewMode>Normal</viewMode>
 		<userSettingID>69ad62e6-3a33-4173-86ee-96d68cf51a76</userSettingID>
 	</conditionalAppearance>
