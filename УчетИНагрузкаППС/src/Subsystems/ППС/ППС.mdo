@@ -18,6 +18,7 @@
   <content>CommonModule.КадроваяСтруктура</content>
   <content>Enum.РолиОтветственныхЛиц</content>
   <content>InformationRegister.ОтветственныеЛицаОрганизации</content>
+  <content>InformationRegister.НормаУчебнойНагрузкиПочасовиков</content>
   <subsystems>Нагрузка</subsystems>
   <subsystems>Справочники</subsystems>
 </mdclass:Subsystem>

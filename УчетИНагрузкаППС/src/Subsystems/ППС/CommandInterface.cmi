@@ -29,6 +29,10 @@
       <command>InformationRegister.НормаУчебнойНагрузкиНаКафедры.StandardCommand.OpenList</command>
       <visible/>
     </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.НормаУчебнойНагрузкиПочасовиков.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>

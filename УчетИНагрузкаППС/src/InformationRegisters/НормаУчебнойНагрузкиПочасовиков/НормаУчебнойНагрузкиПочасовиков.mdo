@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3bbb06a-2384-496a-a6b6-5c0cd4bd9a3a">
+  <producedTypes>
+    <selectionType typeId="5d15876d-9bcc-49a8-80be-dd794f37c313" valueTypeId="64f91caf-587e-41e0-be45-3c004f069465"/>
+    <listType typeId="d2e9ebfa-ca71-42e5-82e2-83bc69885652" valueTypeId="76da8b52-99f5-4288-bfe8-6a9fc7010048"/>
+    <managerType typeId="cc0843ff-c6bb-4fa3-9ef4-65c23e157c80" valueTypeId="21c1441f-946b-4e79-b4d0-c711ba7be966"/>
+    <recordSetType typeId="ce2c3aa8-acf5-4920-a77a-e848aa1ff029" valueTypeId="178599b6-8568-4618-9e6e-5ee16e0304c7"/>
+    <recordKeyType typeId="80bdba4e-63a2-42ed-823c-1417a30f4955" valueTypeId="9438a294-b4b0-47a6-bae9-d255fc9e9539"/>
+    <recordType typeId="c5aa27a3-fd19-4391-9a33-cac9ac0ad0c9" valueTypeId="cafc9cdb-b662-445a-9de8-9a35d1d42943"/>
+    <recordManagerType typeId="16c95fc0-1a5d-41b0-84a6-39b06f8a8933" valueTypeId="d4efcce8-4007-4215-821b-40b0e731f2bc"/>
+  </producedTypes>
+  <name>НормаУчебнойНагрузкиПочасовиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Норма учебной нагрузки почасовиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ba4b2fc6-fe38-4c90-bbe1-5144fbce872d">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+</mdclass:InformationRegister>

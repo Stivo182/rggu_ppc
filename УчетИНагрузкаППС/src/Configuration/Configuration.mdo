@@ -1901,6 +1901,7 @@
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
   <informationRegisters>InformationRegister.НормаУчебнойНагрузки</informationRegisters>
+  <informationRegisters>InformationRegister.НормаУчебнойНагрузкиПочасовиков</informationRegisters>
   <informationRegisters>InformationRegister.НормаУчебнойНагрузкиНаКафедры</informationRegisters>
   <informationRegisters>InformationRegister.КадроваяИсторияСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.УченыеСтепениФизическихЛиц</informationRegisters>
