@@ -57,6 +57,53 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </resources>
+  <resources uuid="e4384cdb-2c46-4316-8429-56fdb552c9bc">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СостоянияЗаписейШтатногоРасписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="3dc73725-9e3a-40ce-a692-dfc5576d23e9">
+    <name>ЗамещаемыйПреподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замещаемый преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <resources uuid="ddc777e4-7ed9-4fe8-babc-93dfe384ae3c">
+    <name>ПорядковыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="749bd20c-4353-468e-b945-bf1ffacc1173">
     <name>УчебныйГод</name>
     <synonym>
@@ -171,34 +218,6 @@
     </synonym>
     <type>
       <types>CatalogRef.ВидыЗаписейШтатногоРасписания</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </dimensions>
-  <dimensions uuid="94df740b-80da-4a91-b768-10775cc1f556">
-    <name>Состояние</name>
-    <synonym>
-      <key>ru</key>
-      <value>Состояние</value>
-    </synonym>
-    <type>
-      <types>EnumRef.СостоянияЗаписейШтатногоРасписания</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </dimensions>
-  <dimensions uuid="cd14480e-0ebc-47a8-8760-7b45c7b78f96">
-    <name>ЗамещаемыйПреподаватель</name>
-    <synonym>
-      <key>ru</key>
-      <value>Замещаемый преподаватель</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
