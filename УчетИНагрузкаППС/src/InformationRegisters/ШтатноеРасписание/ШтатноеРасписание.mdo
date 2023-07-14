@@ -182,34 +182,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </dimensions>
-  <dimensions uuid="3b830716-08c6-4885-b96f-24482358750e">
-    <name>УченаяСтепень</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ученая степень</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.УченыеСтепени</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </dimensions>
-  <dimensions uuid="525f1e24-3219-4928-acd3-620af0570945">
-    <name>УченоеЗвание</name>
-    <synonym>
-      <key>ru</key>
-      <value>Ученое звание</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.УченыеЗвания</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </dimensions>
   <dimensions uuid="2510353c-fb4b-4dbe-bb11-e2d9186fb9f8">
     <name>ВидЗаписи</name>
     <synonym>
